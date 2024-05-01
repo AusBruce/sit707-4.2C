@@ -28,7 +28,7 @@ public class Main {
             String loginResult = SeleniumOperations.bunningsLoginPage(driver, "https://www.bunnings.com.au/login", "your-email@example.com", "yourPassword");
             System.out.println("Login result: " + loginResult);
         } finally {
-            // Ensure the driver is closed after the test
+            // Ensure the driver  closed after the test
             driver.quit();
         }
     }
